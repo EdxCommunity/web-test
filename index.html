@@ -1,57 +1,886 @@
 <!-- partial:index.partial.html -->
-<!DOCTYPE html>
-<html lang="en" class="html">
-  <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <meta http-equiv="X-UA-Compatible" content="ie-edge"/>
-  <link href="https://i.ibb.co/qgb3s8D/StevenTs.png" rel="icon" />
-  <title>StevenTs Website</title>
-  <meta property="og:description"
+<!-- Jangan bully sy bang -->
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://i.ibb.co/qgb3s8D/StevenTs.png" rel="icon" />
+    <title>StevenTs - Home</title>
+    <meta property="og:description"
     content="Kurang tau, ini web doang coeg" />
-  <meta property="og:image" content="https://i.ibb.co/qgb3s8D/StevenTs.png" />
-  <meta property="og:url" content="index.html" />
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"/>
-  </head>
+    <meta property="og:image" content="https://i.ibb.co/qgb3s8D/StevenTs.png" />
+    <meta property="og:url" content="index.html" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="https://previews.aspirity.com/danny/css/master.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+    <link href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css" rel="stylesheet">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter44841709 = new Ya.Metrika({
+                        id:44841709,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true,
+                        webvisor:true,
+                        trackHash:true
+                    });
+                } catch(e) { }
+            });
 
-  <body class="body">
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
 
-    <header class="header">
-      <a class="plerd" href="#"><img src="https://i.ibb.co/dfRqZns/logo.png" alt=""></a>
-      <nav class="nav-bar">
-        <ul class="menu">     
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/44841709" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-xs-8 slideInLeft">
+                <div class="logo">
+                    <a class="plerd" href="#"><img src="https://i.ibb.co/dfRqZns/logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-md-9 hidden-sm hidden-xs slideInRight">
+                <div class="main-menu">
+                    <ul class="list-inline">
+                        <li><a href="#hello">Hello</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact me</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-4 hidden-lg hidden-md slideInRight">
+                <div class="mobile-btn">
+                    <span><i class="mdi mdi-menu" aria-hidden="true"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Mobile menu -->
+<div class="mob-menu-wrapper hidden-md hidden-lg">
+    <div class="close-mob-menu">
+        <span><i class="mdi mdi-close" aria-hidden="true"></i></span>
+    </div>
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#hello">Hello</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact me</a></li>
         </ul>
-      </nav>
-    </header>
+    </div>
+</div>
+<!-- Mobile menu -->
 
-    <section class="masthead">
-      <img class="masthead__wave" src="https://i.ibb.co/H4hkjrK/Proyek-Baru-544-7-AD8792.png" alt="wave"/>
-      <div class="masthead-content">
-        <h1 class="masthead__h1">Welcome To My Website</h1>
-        <br>
-        <br>
-        <p class="masthead__paragraph">
-          Hello, my name is Steven Tri Saputra, I am an EDM Producer, VFX Maker, and Lyricers.
-          Im 15 y/o, And I live in Indonesia, East Java, Situbondo. I am a student and I study at SMAN 2 Situbondo
-        </p>
-        <br>
-        <a class="masthead__link" href="#">Show more <span class="masthead__span fas fa-play"></span></a>
-      </div>
-      <div class="masthead-img">
-        <img class="masthead-img__1" src="https://i.ibb.co/nnJVprx/Proyek-Baru-545-FC79478.png" alt="boy"/>
-      </div>
-      <ul class="list-social">
-        <li class="list-social__item"><a class="list-social__link" href="https://wa.me/62815150192842"><i class=" list-social__i fab fa-whatsapp wangsaf"></i></a></li>
-        <li class="list-social__item"><a class="list-social__link" href="https://instagram.com/stveen.ts"><i class="list-social__i fab fa-instagram ige"></i></a></li>
-        <li class="list-social__item"><a class="list-social__link" href="https://youtube.com/c/StevenTs-EDX"><i class="list-social__i fab fa-youtube yutuf"></i></a></li>
-      </ul>
-    </section>   
+<section id="hello" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 about-img-wrap">
+                <div class="about-img wow slideInRight">
+                    <img src="https://i.ibb.co/S5WfGGG/Proyek-Baru-555-89-C2-B27.png" alt="" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="about-me wow slideInLeft">
+                    <div class="about-me-title">
+                        <h1><span class="point">I am Steven Tri Saputra</span></h1>
+                    </div>
+                    <div class="about-me-text">
+                        <div class="opacity-box">
+                            <p>I am a Designer, VFX Maker, Musician, EDM Producer located in Jawa Timur, Situbondo. I am a student and I study at SMAN 2 Situbondo. I am looking to take on more work and to increase my skills as
+                                a VFX Maker. I also open paid edit, if you want please contact me</p>
+                        </div>
+                    </div>
+                    <div class="about-me-info">
+                        <p>
+                            <span class="span-title">Phone</span>
+                            <span>+62 815-1501-9284</span>
+                        </p>
+                        <p>
+                            <span class="span-title">Email</span>
+                            <span>steventrisaputra@gmail.com</span>
+                        </p>
+                        <p>
+                            <span class="span-title">Address</span>
+                            <span>Indonesia, Jawa Timur, Situbondo, Tribungan - Sumberkolak RT1 RW1 68351</span>
+                        </p>
+                        <p>
+                            <span class="span-title">Social</span>
+                            <span class="span-icons">
+                                <a target="_blank" href="https://www.soundcloud.com/steventz" class="mdi fonts-icons mdi-soundcloud"></a>
+                                <a target="_blank" href="https://www.youtube.com/c/StevenTs-EDX" class="fab fonts-icons fa-youtube"></a>
+                                <a target="_blank" href="https://www.instagram.com/stveen.ts" class="mdi fonts-icons mdi-instagram"></a>
+                                <a target="_blank" href="https://www.wa.me/62815150192842" class="mdi fonts-icons mdi-whatsapp"></a>
+                                <a target="_blank" href="https://github.com/StepenGans/" class="mdi fonts-icons mdi-github-circle"></a>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="about-btns">
+                        <a href="#contact" class="site-btn">Contact me</a>
+                        <a href="dl.stevents.tk" class="site-btn gray-btn">Download Page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-  </body>
+<section id="skills" class="section">
+    <div class="container">
+        <div class="row wave-bg">
+            <div class="zigzag wow slideInLeft">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 105 20" xml:space="preserve">
+                    <g>
+                        <rect class="st0" width="105" height="20"/>
+                        <g>
+                            <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   "/>
+                        </g>
+                    </g>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 105 20" xml:space="preserve">
+                    <g>
+                        <rect class="st0" width="105" height="20"/>
+                        <g>
+                            <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   "/>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="col-md-4 wow slideInLeft">
+                <div class="section-sidebar">
+                    <h2><span class="point">Skills</span></h2>
+                    <div class="opacity-box">
+                        <p>I am inspired by creating great work with people who are as passionate as I am about building something awesome.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-6 wow zoomIn">
+                        <div class="advantages-box">
+                            <h4>Web Development</h4>
+                            <div class="opacity-box">
+                                <p>Javascript, JAVA, Node.js, MongoDB.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 wow zoomIn">
+                        <hr class="mobile-hr">
+                        <div class="advantages-box">
+                            <h4>UI\UX Design</h4>
+                            <div class="opacity-box">
+                                <p>Photoshop, Illustrator, Figma, Alight Motion, Pixellab, Corel Draw, Adobe XD.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 wow zoomIn">
+                        <hr>
+                        <div class="advantages-box">
+                            <h4>Frontend Development</h4>
+                            <div class="opacity-box">
+                                <p>HTML, CSS, Bootstrap.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 wow zoomIn">
+                        <hr>
+                        <div class="advantages-box">
+                            <h4>CGI/VFX Maker</h4>
+                            <div class="opacity-box">
+                                <p>After Effects, Premiere Pro, Cinema 4D, Blender, 3DMax, Unreal Engine, Alight Motion, Prisma3D, Node Video.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 wow zoomIn">
+                        <hr>
+                        <div class="advantages-box">
+                            <h4>EDM Producer</h4>
+                            <div class="opacity-box">
+                                <p>FL Studio, FL Studio Mobile, Cubase, Ableton.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 wow zoomIn">
+                        <hr>
+                        <div class="advantages-box">
+                            <h4>Musician</h4>
+                            <div class="opacity-box">
+                                <p>Drummer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="experience" class="section">
+    <div class="container">
+        <div class="row wave-bg">
+            <div class="zigzag wow slideInLeft">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 105 20" xml:space="preserve">
+                    <g>
+                       <rect class="st0" width="105" height="20"/>
+                        <g>
+                            <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   "/>
+                        </g>
+                    </g>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 105 20" xml:space="preserve">
+                    <g>
+                        <rect class="st0" width="105" height="20"/>
+                        <g>
+                            <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   "/>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="col-md-4 wow slideInLeft">
+                <div class="section-sidebar">
+                    <h2><span class="point">Experience</span></h2>
+                    <div class="opacity-box">
+                        <p>I joined several organizations, and worked with the skills I had.
+                        And I also took part in several competitions and I got the winner</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 right-box">
+                <div class="row wow zoomIn">
+                    <div class="col-md-12">
+                        <div class="about-row">
+                            <h4 class="about-tittle">EDM Producer</h4>
+                            <p class="about-info">Dewan Kesenian Situbondo</p>
+                            <p>Nov, 2020 — Present</p>
+                            <div class="opacity-box">
+                                <p>Perform on stage, and remixed the song "Ira Faramesti - Ollena Terro" into EDM (Future Bass).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row wow zoomIn">
+                    <div class="col-md-12">
+                        <div class="about-row">
+                            <h4 class="about-tittle">Musician</h4>
+                            <p class="about-info">Dinas Pariwisata Kabupaten Situbondo</p>
+                            <p>Nov, 2019</p>
+                            <div class="opacity-box">
+                                <p>Win the competition in the "Putra-Putri Situbondo Berkarya (PUSAKA)" event as the 1st winner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row wow zoomIn">
+                    <div class="col-md-12">
+                        <div class="about-row">
+                            <h4 class="about-tittle">VFX Editor</h4>
+                            <p class="about-info">EDX Community</p>
+                            <p>May, 2017 — Jul, 2022</p>
+                            <div class="opacity-box">
+                                <p>Leading a small team, and create VFX and collaborate with other people on my team</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="education" class="section">
+    <div class="container">
+        <div class="row wave-bg">
+            <div class="zigzag wow slideInLeft">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 105 20" xml:space="preserve">
+                    <g>
+                        <rect class="st0" width="105" height="20"/>
+                        <g>
+                            <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   "/>
+                        </g>
+                    </g>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 105 20" xml:space="preserve">
+                    <g>
+                        <rect class="st0" width="105" height="20"/>
+                        <g>
+                            <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   "/>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="col-md-4 wow slideInLeft">
+                <div class="section-sidebar">
+                    <h2><span class="point">Education</span></h2>
+                    <div class="opacity-box">
+                        <p>All my life I have been driven by my strong belief that education
+                            is important. I try to learn something new every single day.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 right-box">
+                <div class="row wow zoomIn">
+                    <div class="col-md-12">
+                        <div class="about-row">
+                            <h4 class="about-tittle">3D Modelling</h4>
+                            <p class="about-info">Blender & Cinema4D</p>
+                            <p>Apr, 2019 — May, 2022</p>
+                            <div class="opacity-box">
+                                <p>Learn to use 3D software such as Blender and Cinema4D. I learned the basic software, modeling, rigging, and animation.
+                                and it took me 2 years to understand blender, and about 1 year to understand Cinema4D.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row wow zoomIn">
+                    <div class="col-md-12">
+                        <div class="about-row">
+                            <h4 class="about-tittle">Making VFX, Motion Graphic.</h4>
+                            <p class="about-info">After Effect</p>
+                            <p>Sep, 2017 — Jul, 2022</p>
+                            <div class="opacity-box">
+                                <p>I learned the first after effects from my older brother. and I was taught to make visual effects in video clips by him, and when I started to understand the basics, I started to find out myself through the internet all things about AE and learn it</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio" class="section section-small-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title wow slideInLeft">
+                    <h2><span class="point">Portfolio</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="portfolio-sort wow slideInLeft">
+                    <ul class="list-inline">
+                        <li class="colored-link" data-mixitup-control data-filter="all">All projects</li>
+                        <li class="colored-link" data-mixitup-control data-filter=".web-sites">Lyrics</li>
+                        <li class="colored-link" data-mixitup-control data-filter=".ui-ux-design">VFX Maker</li>
+                        <li class="colored-link" data-mixitup-control data-filter=".frontend">EDM Producer</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="portfolio">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-6 mix web-sites wow flipInX">
+                            <a data-toggle="modal" data-target="#portfolio-modal" data-name="patty" title="Shop web app “Patty”" href="#" class="portfolio-box">
+                                <div class="portfolio-img">
+                                    <img src="https://previews.aspirity.com/danny/media/portfolio-images/portfolio-1.jpg" alt="">
+                                </div>
+                                <div class="portfolio-name">
+                                    <span>Nurko - Tonight (ft.Luma) [LYRICS]</span>
+                                </div>
+                                <div class="portfolio-date">
+                                    <span>May, 2021</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 mix frontend wow flipInX">
+                            <a data-toggle="modal" data-target="#portfolio-modal" data-name="phoenix" title="Startup website “Phoenix”" href="#" class="portfolio-box">
+                                <div class="portfolio-img">
+                                    <img src="media/portfolio-images/portfolio-2.jpg" alt="">
+                                </div>
+                                <div class="portfolio-name">
+                                    <span>StevenTs - Change</span>
+                                </div>
+                                <div class="portfolio-date">
+                                    <span>October, 2020</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 mix web-sites wow flipInX">
+                            <a data-toggle="modal" data-target="#portfolio-modal" data-name="ewesta" title="Corporate chat “eWesta”" href="#" class="portfolio-box">
+                                <div class="portfolio-img">
+                                    <img src="media/portfolio-images/portfolio-3.jpg" alt="">
+                                </div>
+                                <div class="portfolio-name">
+                                    <span>RIOT - Wake Up (VIP) [Lyrics]</span>
+                                </div>
+                                <div class="portfolio-date">
+                                    <span>December, 2015</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 mix frontend wow flipInX">
+                            <a data-toggle="modal" data-target="#portfolio-modal" data-name="foody"  title="Restaraunt web app “Foody”" href="#" class="portfolio-box">
+                                <div class="portfolio-img">
+                                    <img src="media/portfolio-images/portfolio-4.jpg" alt="">
+                                </div>
+                                <div class="portfolio-name">
+                                    <span>StevenTs - Dreams</span>
+                                </div>
+                                <div class="portfolio-date">
+                                    <span>May, 2014</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 mix ui-ux-design wow flipInX">
+                            <a data-toggle="modal" data-target="#portfolio-modal" data-name="stark" title="Game website “Stark”" href="#" class="portfolio-box">
+                                <div class="portfolio-img">
+                                    <img src="media/portfolio-images/portfolio-5.jpg" alt="">
+                                </div>
+                                <div class="portfolio-name">
+                                    <span>Terkadang</span>
+                                </div>
+                                <div class="portfolio-date">
+                                    <span>June, 2014</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 mix web-sites wow flipInX">
+                            <a data-toggle="modal" data-target="#portfolio-modal" data-name="te4h" title="Blogger website “Te4h”" href="#" class="portfolio-box">
+                                <div class="portfolio-img">
+                                    <img src="media/portfolio-images/portfolio-6.jpg" alt="">
+                                </div>
+                                <div class="portfolio-name">
+                                    <span>Disciple - We Don't Play (Rushdown Remix) [LYRICS]”</span>
+                                </div>
+                                <div class="portfolio-date">
+                                    <span>April, 2014</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 mix frontend wow flipInX">
+                            <a data-toggle="modal" data-target="#portfolio-modal" data-name="lamp" title="Product website “Lamp”" href="#" class="portfolio-box">
+                                <div class="portfolio-img">
+                                    <img src="media/portfolio-images/portfolio-7.jpg" alt="">
+                                </div>
+                                <div class="portfolio-name">
+                                    <span>StevenTs - Take Me Away (ft. Kovalen)</span>
+                                </div>
+                                <div class="portfolio-date">
+                                    <span>December, 2013</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 mix ui-ux-design wow flipInX">
+                            <a data-toggle="modal" data-target="#portfolio-modal" data-name="zebra" title="Blog web app “Zebra”" href="#" class="portfolio-box">
+                                <div class="portfolio-img">
+                                    <img src="media/portfolio-images/portfolio-8.jpg" alt="">
+                                </div>
+                                <div class="portfolio-name">
+                                    <span>Meteor</span>
+                                </div>
+                                <div class="portfolio-date">
+                                    <span>March, 2013</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <div class="container">
+        <div class="row wave-bg">
+            <div class="zigzag wow slideInLeft">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 105 20" xml:space="preserve">
+                    <g>
+                        <rect class="st0" width="105" height="20"/>
+                        <g>
+                            <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   "/>
+                        </g>
+                    </g>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 105 20" xml:space="preserve">
+                    <g>
+                        <rect class="st0" width="105" height="20"/>
+                        <g>
+                            <polyline class="st1" points="2.5,5 16.8,15 31.1,5 45.3,15 59.6,5 73.9,15 88.2,5 102.5,15   "/>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="col-md-4 wow slideInLeft">
+                <div class="section-sidebar">
+                    <h2><span class="point">Contact</span></h2>
+                    <div class="opacity-box">
+                        <p>Are you working on something great? I would love to help make it
+                            happen! Drop me a letter and start your project right now! Just do it.</p>
+                    </div>
+                </div>
+            </div>
+                <div class="form-wrapper">
+                    <div class="col-md-3">
+                    	<p>Email: steventrisaputra@gmail.com</p>
+                        <p>Discord: StevenTs#5499</p>
+                        <p>Instagram: @stveen.ts</p>
+                        <p>WhatsApp: +62 815-1501-92842</p>
+                    	</div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer class="footer text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 wow zoomIn">
+                <div class="copyright">
+                    <p>Copyright &copy; StevenTs.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Portfolio modal -->
+<div class="modal fade" id="portfolio-modal" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" >
+            <div class="modal-body" data-name="patty">
+                <div class="modal-title">
+                    <h1><span class="point"></span></h1>
+                </div>
+                <div class="modal-description">
+                    <p></p>
+                </div>
+                <div class="about-me-info">
+                    <p>
+                        <span class="span-title"></span>
+                        <span></span>
+                    </p>
+                    <p>
+                        <span class="span-title"></span>
+                        <span></span>
+                    </p>
+                </div>
+                <div class="modal-images">
+                    <img src="media/modal-images/modal-image-1.jpg" alt="">
+                    <img src="media/modal-images/modal-image-2.jpg" alt="">
+                </div>
+                <div class="about-btns">
+                    <a href="#" class="site-btn gray-btn" data-dismiss="modal">Back to cv</a>
+                </div>
+            </div>
+            <div class="modal-body" data-name="phoenix">
+                <div class="modal-title">
+                    <h1><span class="point"></span></h1>
+                </div>
+                <div class="modal-description">
+                    <p></p>
+                </div>
+                <div class="about-me-info">
+                    <p>
+                        <span class="span-title"></span>
+                        <span></span>
+                    </p>
+                    <p>
+                        <span class="span-title"></span>
+                        <span></span>
+                    </p>
+                </div>
+                <div class="modal-images">
+                    <img src="media/modal-images/modal-image-1.jpg" alt="">
+                    <img src="media/modal-images/modal-image-2.jpg" alt="">
+                </div>
+                <div class="about-btns">
+                    <a href="#" class="site-btn gray-btn" data-dismiss="modal">Back to cv</a>
+                </div>
+            </div>
+            <div class="modal-body" data-name="ewesta">
+                <div class="modal-title">
+                    <h1><span class="point"></span></h1>
+                </div>
+                <div class="modal-description">
+                    <p></p>
+                </div>
+                <div class="about-me-info">
+                    <p>
+                        <span class="span-title"></span>
+                        <span></span>
+                    </p>
+                    <p>
+                        <span class="span-title"></span>
+                        <span></span>
+                    </p>
+                </div>
+                <div class="modal-images">
+                    <img src="media/modal-images/modal-image-1.jpg" alt="">
+                    <img src="media/modal-images/modal-image-2.jpg" alt="">
+                </div>
+                <div class="about-btns">
+                    <a href="#" class="site-btn gray-btn" data-dismiss="modal">Back to cv</a>
+                </div>
+            </div>
+            <div class="modal-body" data-name="foody">
+                <div class="modal-title">
+                    <h1><span class="point"></span></h1>
+                </div>
+                <div class="modal-description">
+                    <p></p>
+                </div>
+                <div class="about-me-info">
+                    <p>
+                        <span class="span-title"></span>
+                        <span></span>
+                    </p>
+                    <p>
+                        <span class="span-title"></span>
+                        <span></span>
+                    </p>
+                </div>
+                <div class="modal-images">
+                    <img src="media/modal-images/modal-image-1.jpg" alt="">
+                    <img src="media/modal-images/modal-image-2.jpg" alt="">
+                </div>
+                <div class="about-btns">
+                    <a href="#" class="site-btn gray-btn" data-dismiss="modal">Back to cv</a>
+                </div>
+            </div>
+            <div class="modal-body" data-name="stark">
+                <div class="modal-title">
+                    <h1><span class="point"></span></h1>
+                </div>
+                <div class="modal-description">
+                    <p></p>
+                </div>
+                <div class="about-me-info">
+                    <p>
+                        <span class="span-title"></span>
+                        <span></span>
+                    </p>
+                    <p>
+                        <span class="span-title"></span>
+                        <span></span>
+                    </p>
+                </div>
+                <div class="modal-images">
+                    <img src="media/modal-images/modal-image-1.jpg" alt="">
+                    <img src="media/modal-images/modal-image-2.jpg" alt="">
+                </div>
+                <div class="about-btns">
+                    <a href="#" class="site-btn gray-btn" data-dismiss="modal">Back to cv</a>
+                </div>
+            </div>
+            <div class="modal-body" data-name="te4h">
+                <div class="modal-title">
+                    <h1><span class="point"></span></h1>
+                </div>
+                <div class="modal-description">
+                    <p></p>
+                </div>
+                <div class="about-me-info">
+                    <p>
+                        <span class="span-title"></span>
+                        <span></span>
+                    </p>
+                    <p>
+                        <span class="span-title"></span>
+                        <span></span>
+                    </p>
+                </div>
+                <div class="modal-images">
+                    <img src="media/modal-images/modal-image-1.jpg" alt="">
+                    <img src="media/modal-images/modal-image-2.jpg" alt="">
+                </div>
+                <div class="about-btns">
+                    <a href="#" class="site-btn gray-btn" data-dismiss="modal">Back to cv</a>
+                </div>
+            </div>
+            <div class="modal-body" data-name="lamp">
+                <div class="modal-title">
+                    <h1><span class="point"></span></h1>
+                </div>
+                <div class="modal-description">
+                    <p></p>
+                </div>
+                <div class="about-me-info">
+                    <p>
+                        <span class="span-title"></span>
+                        <span></span>
+                    </p>
+                    <p>
+                        <span class="span-title"></span>
+                        <span></span>
+                    </p>
+                </div>
+                <div class="modal-images">
+                    <img src="media/modal-images/modal-image-1.jpg" alt="">
+                    <img src="media/modal-images/modal-image-2.jpg" alt="">
+                </div>
+                <div class="about-btns">
+                    <a href="#" class="site-btn gray-btn" data-dismiss="modal">Back to cv</a>
+                </div>
+            </div>
+            <div class="modal-body" data-name="zebra">
+                <div class="modal-title">
+                    <h1><span class="point"></span></h1>
+                </div>
+                <div class="modal-description">
+                    <p></p>
+                </div>
+                <div class="about-me-info">
+                    <p>
+                        <span class="span-title"></span>
+                        <span></span>
+                    </p>
+                    <p>
+                        <span class="span-title"></span>
+                        <span></span>
+                    </p>
+                </div>
+                <div class="modal-images">
+                    <img src="media/modal-images/modal-image-1.jpg" alt="">
+                    <img src="media/modal-images/modal-image-2.jpg" alt="">
+                </div>
+                <div class="about-btns">
+                    <a href="#" class="site-btn gray-btn" data-dismiss="modal">Back to cv</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio modal -->
+
+<!-- Contact me modal -->
+<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal">
+    <div class="modal-dialog modal-center" role="document">
+        <div class="modal-content" >
+            <div class="modal-body">
+                <div class="modal-title">
+                    <h1><span class="point">Let’s work together</span></h1>
+                </div>
+                <div class="modal-description">
+                    <p>Are you working on something great? I would love to help make it happen!
+                        Drop me a letter and start your project right now! Just do it.</p>
+                </div>
+                <div class="modal-form">
+                    <form action="#" class="js-modal-form">
+                        <div class="row form-wrapper">
+                            <div class="col-lg-5 col-md-5">
+                                <div class="form-group">
+                                    <input class="form-field js-field-name" type="text" placeholder="Name" required>
+                                    <span class="form-validation"></span>
+                                    <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-field js-field-email" type="email" placeholder="E-mail" required>
+                                    <span class="form-validation"></span>
+                                    <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-7">
+                                <div class="form-group">
+                                    <textarea class="form-field js-field-message" placeholder="Message" required></textarea>
+                                    <span class="form-validation"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="submit-holder">
+                                    <input class="site-btn js-submit-contact" type="submit" value="Send message">
+                                    <a href="#" class="site-btn gray-btn" data-dismiss="modal">Back to cv</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact me modal -->
+
+<!-- Thank you modal -->
+<div class="modal fade" id="thanks-modal" tabindex="-1" role="dialog" aria-labelledby="thanks-modal">
+    <div class="modal-dialog modal-center" role="document">
+        <div class="modal-content" >
+            <div class="modal-body">
+                <div class="modal-title">
+                    <h1><span class="point">Your message has been sent</span></h1>
+                </div>
+                <div class="modal-description">
+                    <p>Thank you for your interest in my work. I’ll contact you just in a few
+                        days. Stay tuned and see you soon, friend!</p>
+                </div>
+                <a href="#" class="site-btn" data-dismiss="modal">Back to cv</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Thank you modal -->
+
+<!-- Error message modal -->
+<div class="modal fade" id="error-modal" tabindex="-1" role="dialog" aria-labelledby="error-modal">
+    <div class="modal-dialog modal-center" role="document">
+        <div class="modal-content" >
+            <div class="modal-body">
+                <div class="modal-title">
+                    <h1><span class="point">Ooops!</span></h1>
+                </div>
+                <div class="modal-description">
+                    <p>Something go wrong!</p>
+                </div>
+                <a href="#" class="site-btn" data-dismiss="modal">Try again</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Error message modal -->
+
+
+<script src="https://previews.aspirity.com/danny/js/jquery-2.2.3.min.js"></script>
+<script src="https://previews.aspirity.com/danny/js/bootstrap.min.js"></script>
+
+<script src="https://previews.aspirity.com/danny/js/jquery.placeholder.min.js"></script>
+
+<!--Mix It Up-->
+<script src="https://previews.aspirity.com/danny/assets/mixitup-v3/dist/mixitup.min.js"></script>
+
+<!--THEME-->
+<script src="https://previews.aspirity.com/danny/js/wow.min.js"></script>
+
+<script src="https://previews.aspirity.com/danny/js/theme.js"></script>
+
+</body>
 </html>
 <!-- partial -->
-  
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
 </body>
 </html>
