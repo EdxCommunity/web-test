@@ -1,0 +1,21 @@
+name: Jekyll site CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Build the site in the jekyll/builder container
+      run: 
+        dig WWW.EXAMPLE.COM +nostats +nocomments +nocmd
+    > ;www.stevents.my.id.                     IN      A
+    > www.stevents.my.id.              3592    IN      CNAME   edxcommunity.github.io.
+    > edxcommunity.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
+    >  GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
